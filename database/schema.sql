@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS studentdb
+  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE studentdb;
+
+CREATE TABLE IF NOT EXISTS academic_records (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  course_code VARCHAR(20) NOT NULL,
+  subject_name VARCHAR(150) NOT NULL,
+  course_type VARCHAR(10) NOT NULL,
+  credits DECIMAL(3,1) NOT NULL,
+  grade VARCHAR(5) NOT NULL,
+  semester VARCHAR(30) NOT NULL
+);

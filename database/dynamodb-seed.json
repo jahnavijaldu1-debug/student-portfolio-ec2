@@ -1,0 +1,50 @@
+[
+  {
+    "skill_id": {"S": "SKILL001"},
+    "category": {"S": "Skill"},
+    "name": {"S": "Java"},
+    "description": {"S": "Object-oriented programming and problem-solving."},
+    "level": {"S": "Learning"}
+  },
+  {
+    "skill_id": {"S": "SKILL002"},
+    "category": {"S": "Skill"},
+    "name": {"S": "Web Development"},
+    "description": {"S": "HTML, CSS, JavaScript, and frontend fundamentals."},
+    "level": {"S": "Learning"}
+  },
+  {
+    "skill_id": {"S": "SKILL003"},
+    "category": {"S": "Skill"},
+    "name": {"S": "Data Structures & Algorithms"},
+    "description": {"S": "Algorithmic thinking and coding practice."},
+    "level": {"S": "Practicing"}
+  },
+  {
+    "skill_id": {"S": "SKILL004"},
+    "category": {"S": "Skill"},
+    "name": {"S": "SQL & Databases"},
+    "description": {"S": "Relational database and SQL fundamentals."},
+    "level": {"S": "Learning"}
+  },
+  {
+    "skill_id": {"S": "SKILL005"},
+    "category": {"S": "Skill"},
+    "name": {"S": "Cloud Computing"},
+    "description": {"S": "Cloud concepts and AWS services."},
+    "level": {"S": "Learning"}
+  },
+  {
+    "skill_id": {"S": "CERT001"},
+    "category": {"S": "Certification"},
+    "name": {"S": "AWS Certified Cloud Practitioner"},
+    "description": {"S": "Cloud fundamentals and AWS services certification."},
+    "issuer": {"S": "Amazon Web Services"}
+  },
+  {
+    "skill_id": {"S": "CERT002"},
+    "category": {"S": "Certification"},
+    "name": {"S": "Full Stack Web Development Certificate"},
+    "description": {"S": "Full-stack web development course certificate."}
+  }
+]
